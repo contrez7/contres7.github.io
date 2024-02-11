@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estye.css">
+
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f2f2f2;
+        }
+
+        header {
+            background-color: #803e3e;
+            padding: 1px;
+            color: #fff;
+            text-align: center;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: brown;
+            padding: 1px;
+        }
+
+        nav img {
+            max-width: 200px;
+            max-height: 50px;
+            margin-right: 50px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        nav ul li {
+            margin-right: 15px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #fff;
+            padding: 21px;
+            display: block;
+        }
+
+        nav ul li a:hover {
+            background-color: #ff3535;
+        }
+
+        /* Estilo del menú desplegable */
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #050505;
+            box-shadow: 0 8px 16px rgba(37, 35, 35, 0.2);
+            z-index: 1;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+    </style>
+
+
+    <header>
+        <h1><font color="" face="Blackadder ITC">CONTRESS</h1></font>
+    </header>
+
+    <nav>
+        <div>
+            <img src="l.png" alt="Logo">
+            
+        </div>
+        <ul>
+            <li><a href="index.html">🏠 Inicio </a></li>
+            <li><a href="venta por cata.html">Catalogos</a></li>
+            <li class="dropdown">
+                <a href="#">Ropa</a>
+                <div class="dropdown-content">
+                    <a href="ropa de honbre.html">Honbre</a>
+                    <a href="ropa de mujer.html">Mujer</a>
+                    <a href="#">proximamente</a>
+                </div>
+            </li>
+            <li><a href="#">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <style>
+       
+
+        .cuadro {
+            perspective: 1000px;
+            width: 200px;
+            height: 200px;
+            position: relative;
+            transform-style: preserve-3d;
+            transition: transform 0.5s;
+        }
+
+        .cuadro:hover {
+            transform: rotateY(180deg);
+        }
+
+        .parte-trasera,
+        .parte-delantera {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            backface-visibility: hidden;
+        }
+
+        .parte-trasera {
+            transform: rotateY(180deg);
+            background-color: #ffffff;
+        }
+
+        .parte-delantera {
+            background-color: #fdfdfd;
+        }
+    </style>
+    <title>CONTRES</title>
+</head>
+<body>
+    <br>
+
+   <center><font size="7" color="sky blue" face="arial"><b> MASCULINO</font></b>
+<br><br><font size="4" color="sky blue" face="arial">⚡inicio / masculino </font></center> <br>
+
+
+    <table  width="1211" height="391" align="center">
+        <tr>
+            <td>
+                <div class="cuadro">
+                    <div class="parte-trasera">
+                        <img src="t1.webp" width="230" height=""> <!-- Contenido de la parte trasera del cuadro -->
+                        <p  align="center"><font size="5" color="gray" face="arial">Talla : 
+                            <a href="">👁️‍🗨️</a><br>
+                            TOP Femenino<br> $3.99 </font></p>
+                    </div>
+                    <div class="parte-delantera">
+                        <img src="d1.webp" width="230" height=""><!-- Contenido de la parte delantera del cuadro -->
+                        <p  align="center"><font size="5" color="gray" face="arial">Talla : 
+                            <a href="">👁️‍🗨️</a><br>
+                            TOP Femenino<br> $3.99 </font></p>
+                    </div>
+                </div>
+            </td>
+
+            <td>
+               <div class="cuadro">
+                    <div class="parte-trasera">
+                        <img src="t2.webp" width="230" height=""> <!-- Contenido de la parte trasera del cuadro -->
+                        <p  align="center"><font size="5" color="gray" face="arial">Talla : 
+                            <a href="">👁️‍🗨️</a><br>
+                            TOP Femenino<br> $3.99 </font></p>
+                    </div>
+                    <div class="parte-delantera">
+                        <img src="d2.webp" width="230" height=""> <!-- Contenido de la parte delantera del cuadro -->
+                        <p  align="center"><font size="5" color="gray" face="arial">Talla : 
+                            <a href="">👁️‍🗨️</a><br>
+                            TOP Femenino<br> $3.99 </font></p>
+                    </div>
+                </div>
+            </td>
+
+
+
+            <td>
+                <div class="cuadro">
+                    <div class="parte-trasera">
+                        <img src="t3.webp" width="230" height=""> <!-- Contenido de la parte trasera del cuadro -->
+                        <p  align="center"><font size="5" color="gray" face="arial">Talla : 
+                            <a href="">👁️‍🗨️</a><br>
+                            TOP Femenino<br> $3.99 </font></p>
+                    </div>
+                    <div class="parte-delantera">
+                        <img src="d3.webp" width="230" height=""><!-- Contenido de la parte delantera del cuadro -->
+                        <p  align="center"><font size="5" color="gray" face="arial">Talla : 
+                            <a href="">👁️‍🗨️</a><br>
+                            TOP Femenino<br> $3.99 </font></p>
+                    </div>
+                </div>
+            </td>
+
+
+
+
+
+            <td>
+               <div class="cuadro">
+                    <div class="parte-trasera">
+                        <img src="t4.webp" width="230" height=""> <!-- Contenido de la parte trasera del cuadro -->
+                        <p  align="center"><font size="5" color="gray" face="arial">Talla : 
+                            <a href="">👁️‍🗨️</a><br>
+                            TOP Femenino<br> $3.99 </font></p>
+                    </div>
+                    <div class="parte-delantera">
+                        <img src="d4.webp" width="230" height=""> <!-- Contenido de la parte delantera del cuadro -->
+                        <p  align="center"><font size="5" color="gray" face="arial">Talla : 
+                            <a href="">👁️‍🗨️</a><br>
+                            TOP Femenino<br> $3.99 </font></p>
+                    </div>
+                </div>
+            </td>
+
+
+
+
+
+
+
+            <td>
+                <div class="cuadro">
+                    <div class="parte-trasera">
+                        <img src="t5.webp" width="230" height=""> <!-- Contenido de la parte trasera del cuadro -->
+                        <p  align="center"><font size="5" color="gray" face="arial">Talla : 
+                            <a href="">👁️‍🗨️</a><br>
+                            TOP Femenino<br> $3.99 </font></p>
+                    </div>
+                    <div class="parte-delantera">
+                        <img src="d5.webp" width="230" height=""><!-- Contenido de la parte delantera del cuadro -->
+                        <p  align="center"><font size="5" color="gray" face="arial">Talla : 
+                            <a href="">👁️‍🗨️</a><br>
+                            TOP Femenino<br> $3.99 </font></p>
+                    </div>
+                </div>
+            </td>
+
+
+
+           
+
+    
+
+
+        <!-- Puedes agregar más filas según sea necesario -->
+    </table><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+
+
+<table  width="1211" height="391" align="center">
+    <tr>
+        <td>
+            <div class="cuadro">
+                <div class="parte-trasera">
+                    <img src="tt2.webp" width="230" height=""> <!-- Contenido de la parte trasera del cuadro -->
+                    <p  align="center"><font size="5" color="gray" face="arial">Talla : 
+                        <a href="">👁️‍🗨️</a><br>
+                        TOP Femenino<br> $3.99 </font></p>
+                </div>
+                <div class="parte-delantera">
+                    <img src="tt2.webp" width="230" height=""><!-- Contenido de la parte delantera del cuadro -->
+                    <p  align="center"><font size="5" color="gray" face="arial">Talla : 
+                        <a href="">👁️‍🗨️</a><br>
+                        TOP Femenino<br> $3.99 </font></p>
+                </div>
+            </div>
+        </td>
+
+        <td>
+           <div class="cuadro">
+                <div class="parte-trasera">
+                    <img src="dd1.webp" width="230" height=""> <!-- Contenido de la parte trasera del cuadro -->
+                    <p  align="center"><font size="5" color="gray" face="arial">Talla : 
+                        <a href="">👁️‍🗨️</a><br>
+                        TOP Femenino<br> $3.99 </font></p>
+                </div>
+                <div class="parte-delantera">
+                    <img src="dd1.webp" width="230" height=""> <!-- Contenido de la parte delantera del cuadro -->
+                    <p  align="center"><font size="5" color="gray" face="arial">Talla : 
+                        <a href="">👁️‍🗨️</a><br>
+                        TOP Femenino<br> $3.99 </font></p>
+                </div>
+            </div>
+        </td>
+
+
+
+        <td>
+            <div class="cuadro">
+                <div class="parte-trasera">
+                    <img src="tt3.webp" width="230" height=""> <!-- Contenido de la parte trasera del cuadro -->
+                    <p  align="center"><font size="5" color="gray" face="arial">Talla : 
+                        <a href="">👁️‍🗨️</a><br>
+                        TOP Femenino<br> $3.99 </font></p>
+                </div>
+                <div class="parte-delantera">
+                    <img src="dd3.webp" width="230" height=""><!-- Contenido de la parte delantera del cuadro -->
+                    <p  align="center"><font size="5" color="gray" face="arial">Talla : 
+                        <a href="">👁️‍🗨️</a><br>
+                        TOP Femenino<br> $3.99 </font></p>
+                </div>
+            </div>
+        </td>
+
+
+
+
+
+        <td>
+           <div class="cuadro">
+                <div class="parte-trasera">
+                    <img src="tt4.webp" width="230" height=""> <!-- Contenido de la parte trasera del cuadro -->
+                    <p  align="center"><font size="5" color="gray" face="arial">Talla : 
+                        <a href="">👁️‍🗨️</a><br>
+                        TOP Femenino<br> $3.99 </font></p>
+                </div>
+                <div class="parte-delantera">
+                    <img src="dd4.webp" width="230" height=""> <!-- Contenido de la parte delantera del cuadro -->
+                    <p  align="center"><font size="5" color="gray" face="arial">Talla : 
+                        <a href="">👁️‍🗨️</a><br>
+                        TOP Femenino<br> $3.99 </font></p>
+                </div>
+            </div>
+        </td>
+
+
+
+
+
+
+
+        <td>
+            <div class="cuadro">
+                <div class="parte-trasera">
+                    <img src="tt5.webp" width="230" height=""> <!-- Contenido de la parte trasera del cuadro -->
+                    <p  align="center"><font size="5" color="gray" face="arial">Talla : 
+                        <a href="">👁️‍🗨️</a><br>
+                        TOP Femenino<br> $3.99 </font></p>
+                </div>
+                <div class="parte-delantera">
+                    <img src="dd5.webp" width="230" height=""><!-- Contenido de la parte delantera del cuadro -->
+                    <p  align="center"><font size="5" color="gray" face="arial">Talla : 
+                        <a href="">👁️‍🗨️</a><br>
+                        TOP Femenino<br> $3.99 </font></p>
+                </div>
+            </div>
+        </td>
+
+
+
+       
+
+
+
+
+    <!-- Puedes agregar más filas según sea necesario -->
+</table><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+
+<table  width="1211" height="444" align="center">
+    <tr>
+        <td>
+            <div class="cuadro">
+                <div class="parte-trasera">
+                    <img src="ttt1.webp" width="230" height=""> <!-- Contenido de la parte trasera del cuadro -->
+                    <p  align="center"><font size="5" color="gray" face="arial">Talla : 
+                        <a href="">👁️‍🗨️</a><br>
+                        TOP Femenino<br> $3.99 </font></p>
+                </div>
+                <div class="parte-delantera">
+                    <img src="ddd1.webp" width="230" height=""><!-- Contenido de la parte delantera del cuadro -->
+                    <p  align="center"><font size="5" color="gray" face="arial">Talla : 
+                        <a href="">👁️‍🗨️</a><br>
+                        TOP Femenino<br> $3.99 </font></p>
+                </div>
+            </div>
+        </td>
+
+        <td>
+           <div class="cuadro">
+                <div class="parte-trasera">
+                    <img src="ttt2.webp" width="230" height=""> <!-- Contenido de la parte trasera del cuadro -->
+                    <p  align="center"><font size="5" color="gray" face="arial">Talla : 
+                        <a href="">👁️‍🗨️</a><br>
+                        TOP Femenino<br> $3.99 </font></p>
+                </div>
+                <div class="parte-delantera">
+                    <img src="ddd2.webp" width="230" height=""> <!-- Contenido de la parte delantera del cuadro -->
+                    <p  align="center"><font size="5" color="gray" face="arial">Talla : 
+                        <a href="">👁️‍🗨️</a><br>
+                        TOP Femenino<br> $3.99 </font></p>
+                </div>
+            </div>
+        </td>
+
+
+
+        <td>
+            <div class="cuadro">
+                <div class="parte-trasera">
+                    <img src="ttt3.webp" width="230" height=""> <!-- Contenido de la parte trasera del cuadro -->
+                    <p  align="center"><font size="5" color="gray" face="arial">Talla : 
+                        <a href="">👁️‍🗨️</a><br>
+                        TOP Femenino<br> $3.99 </font></p>
+                </div>
+                <div class="parte-delantera">
+                    <img src="ddd3.webp" width="230" height=""><!-- Contenido de la parte delantera del cuadro -->
+                    <p  align="center"><font size="5" color="gray" face="arial">Talla : 
+                        <a href="">👁️‍🗨️</a><br>
+                        TOP Femenino<br> $3.99 </font></p>
+                </div>
+            </div>
+        </td>
+
+
+
+
+
+        <td>
+           <div class="cuadro">
+                <div class="parte-trasera">
+                    <img src="ttt4.webp" width="230" height=""> <!-- Contenido de la parte trasera del cuadro -->
+                    <p  align="center"><font size="5" color="gray" face="arial">Talla : 
+                        <a href="">👁️‍🗨️</a><br>
+                        TOP Femenino<br> $3.99 </font></p>
+                </div>
+                <div class="parte-delantera">
+                    <img src="ddd4.webp" width="230" height=""> <!-- Contenido de la parte delantera del cuadro -->
+                    <p  align="center"><font size="5" color="gray" face="arial">Talla : 
+                        <a href="">👁️‍🗨️</a><br>
+                        TOP Femenino<br> $3.99 </font></p>
+                </div>
+            </div>
+        </td>
+
+
+
+
+
+
+
+        <td>
+            <div class="cuadro">
+                <div class="parte-trasera">
+                    <img src="ttt5.jpg" width="230" height=""> <!-- Contenido de la parte trasera del cuadro -->
+                    <p  align="center"><font size="5" color="gray" face="arial">Talla : 
+                        <a href="">👁️‍🗨️</a><br>
+                        TOP Femenino<br> $3.99 </font></p>
+                </div>
+                <div class="parte-delantera">
+                    <img src="ddd5.webp" width="230" height=""><!-- Contenido de la parte delantera del cuadro -->
+                    <p align="center"><font size="5" color="gray" face="arial">Talla : 
+                        <a href="">👁️‍🗨️</a><br>
+                        TOP Femenino<br> $3.99 </font></p>
+                </div>
+            </div>
+        </td>
+
+
+
+       
+
+
+
+
+    <!-- Puedes agregar más filas según sea necesario -->
+</table><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+
+
+        <center><font size="3 " color="" face="arial"><b>Viste 84 de 402 productos〽️ </font></center><br>
+        <table   width="111" height="22"align="center">
+            <tr>
+        <td align="center" bgcolor="brown"><a href=""><font size="4" color="white" face="arial">VERMAS ></font></a></td>
+    </tr>
+</table><br><br>
+
+<center><font size="6 " color="gray" face="arial"><i>Mas..</i></font></center>
+<hr color="purple" width="1300"  size="2">
+
+<center><a href=""><img src="luk.png" width="1130" height=""></a></center>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table width="100%" height="200" bgcolor="black">
+    <tr>
+        <td><font color="sky blue"size="5"face="Impact">¿Qué quieres saber?</font></td>
+        <td><font color="pink"size="5"face="Impact">Centros de Compra </font></td>
+        <td><font color="blac"size="5"face="Impact">💲Tiendas de venta Amigui💲</font></td>
+        <td><center><font color="white"size="5"face="Impact">Nuestras Redes Sociales
+</font></td>
+    </tr>
+    <tr>
+<td><font color="gainsboro"size="3"face="Arial"><br><br>trabajamos desde 2009 <br><br>costruyendo un proceso unico <br>
+    nuestro pais ,formal,,estandadres,<br><br><br>autosustentable para la compra y ademas  <br> venta de ropa <br><br><br>
+    informacion <br> info@emprende.com.ec<br>     Donde estamos<br>Somos familia<br>Estamos aqui para ti<br><br>Somos sociedades<br>Nada nos detiene<br>seguiremos mas</font></td>
+
+<td><font color="gainsboro"size="3"face="Arial">Contre Cordero 🛒📌:<br><br>
+10 de agosto N24-166 y Cordero frente a Kywi.<br>
+Telf: 2 908 025<br>
+Horario: Lunes a viernes de 09h00 a 18h00<br><br>
+Sábados de 09h00 a 14h00<br>
+
+Contre Tumbaco 🛒📌:<br>
+Av. Interoceánica y Vicente Rocafuerte, Tumbaco🏠   .<br>
+Telf.2 370 113<br>
+Horario: Lunes a viernes de 09h00 a 12h00 y de 13h00 a 18h00<br><br>
+Sábados de 09h00 a 14h00 Somos union <br>Estos son heroes<br> Plenisalud.SA<br>Somos familia<br><br>Estamos aqui para ti<br>Somos familia<br>Estamos aqui para ti</font></td>
+
+<td><font color="gainsboro"size="3"face="Arial">Contre solanda 🛒📌:<br>
+    José María Alemán S24-33 y Av. Solanda (Sector la parada)<br>
+    Telf: 5 355 567<br>
+    Horario: Lunes a sábado de 13h00 a 21h00<br>
+    Sábados de 13h00 a 19h00<br>
+    
+    Contre Cotocollao 🛒📌:<br><br>
+    Av. López No. 125 Intersección General Guerrero<br>
+    Plaza de Cotocollao – Frente a la Iglesia.<br>
+    Telf: 5 125 86683
+    Horario: Lunes a viernes de 10h00 a 13h00 y de 14h00 a 19h00<br>
+    Sábados de 10h00 a 16h00<br>
+    <br>Estamos ubicados el guasmo<br>Atencion las 12 horas<br>Pruevas .PSI<br>Somos familia<br>Estamos aqui para ti<br>Somos familia<br>Estamos aqui para ti</font></td>
+<td><center><font color="gainsboro"size="3"face="Arial"><a href="https://dragonball.fandom.com/es/wiki/Son_Goku"><img src="f.png" width="40" height="40"><img src="is.png" width="40" height="40"><img src="t.webp" width="40" height="40"><img src="y.png" width="40" height="40">
+<br><font color="yellow">Contactanos</font></td></a>
+    
+
+
+    
+
+
+
+
+
+    <tr>
+<td colspan="4" align="center"><img src="ll.jpeg" width="160" height=""></td>        
+    </tr>
+    
+ </table> 
+ 
+ <table width="100%" height="100%">
+    <TR>
+<td align="center"><img src="b27a91c9-edd4-4a5a-9b8f-7bce8b2974ea___41395ced82ac188af79082abe9c3df7b.webp" width="1100" height=""></td>
+<br>
+    </TR>
+<TR>
+    <Td><center><font color=""size="4"face="Arial"><B>TITULACIONES APROBADAS POR EL MINISTERIO DE EDUCACIÓN, CULTURA Y DEPORTE VIDA SALUDABLE COM PLENISALUD S.A</center></Td>
+    </TR>
+<tr>
+<td><center>
+</td>
+</tr>
+ </table>
+
+ <div class="jose">
+<table width="100%" height="100" >
+ 
+<tr bgcolor="black"width="100" height="100" >
+
+    <td><center><font color="white"size=""face="Arial">SIE7E 2022 © Todos los derechos reservados | Empowered By
+
+    </font></td>
+    
+</tr>
+
+
+ </table>
+    
+</body>
+</html>
